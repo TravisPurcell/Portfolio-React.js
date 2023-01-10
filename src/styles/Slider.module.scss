@@ -1,0 +1,132 @@
+/* Variables
+------------------------------------------*/
+
+$color__text-main: #212529;
+
+$color__lgray: #262626;
+$color__gray: #212529;
+$color__gold: #eac595;
+$color__alt: #1a8cff;
+$color__purple: #9999ff;
+
+$font__main: 'Sono', sans-serif;
+
+/* Slider
+-------------------------------------------*/
+
+.slider {
+
+    .carousel.slide {
+      margin: 0 auto;
+    }
+  
+    .carousel-control-prev {
+      justify-content: flex-start;
+    }
+  
+    .carousel-control-prev-icon {
+      background-image: url('https://tnp-portfolio.com/php-demo/wp-content/uploads/2022/11/prev-arrow.svg');
+    }
+  
+    .carousel-control-next-icon {
+      background-image: url('https://tnp-portfolio.com/php-demo/wp-content/uploads/2022/11/next-arrow.svg');
+    }
+  
+    .carousel-control-next {
+      justify-content: flex-end;
+    }
+  
+    h2 {
+      text-align: center;
+    }
+  
+    img {
+      width: 75px;
+    }
+  }
+
+  .slide__wrapper {
+    margin: 0 auto;
+    max-width: 200px;
+    height: 225px;
+    padding: 0;
+    text-align: center;
+  
+    .h3 {
+        color: $color__gold;
+        margin-bottom: 2em;
+        text-align: center;
+        font-style: italic;
+    }
+  
+    .img__wrapper {
+        display: flex;
+        justify-content: space-around;
+        height: 75px;
+    }
+  }
+  
+  @media (min-width: 425px) {
+  
+    .slider {
+  
+      .carousel.slide {
+        max-width: 280px;
+      }
+    }
+  }
+  
+  @media (min-width: 768px) {
+  
+    .slider {
+  
+      .carousel.slide {
+        max-width: 576px;
+      }
+  
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    .slide__wrapper {
+      max-width: 350px;
+      height: 275px;
+    }
+
+    .img__wrapper {
+        height: 100px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+  
+    .slider {
+  
+      img {
+        width: 125px;
+        height: 125px;
+  
+      }
+    }
+
+    .slide__wrapper {
+      height: 350px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+  
+    .slider {
+  
+      img {
+        width: 150px;
+        height: 150px;
+      }
+    }
+
+    .slide__wrapper {
+      height: 375px;
+    }
+  }

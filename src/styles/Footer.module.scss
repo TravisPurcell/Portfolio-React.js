@@ -1,0 +1,44 @@
+/* Variables
+------------------------------------------*/
+
+$color__text-main: #212529;
+
+$color__lgray: #262626;
+$color__gray: #212529;
+$color__gold: #eac595;
+$color__alt: #1a8cff;
+$color__purple: #9999ff;
+
+$font__main: 'Sono', sans-serif;
+
+/* Footer
+-------------------------------------------*/
+
+.footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: $color__alt;
+
+  &Logo {
+    max-width: 50px;
+  }
+
+  p {
+    font-weight: bold;
+  }
+
+  .row {
+    justify-content: center;
+  }
+
+  .img__wrapper {
+    text-align: center;
+  }
+
+  .flex__wrapper {
+    max-width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

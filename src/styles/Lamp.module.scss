@@ -1,0 +1,31 @@
+/* Variables
+------------------------------------------*/
+
+$color__text-main: #212529;
+
+$color__lgray: #262626;
+$color__gray: #212529;
+$color__gold: #eac595;
+$color__alt: #1a8cff;
+$color__purple: #9999ff;
+
+$font__main: 'Sono', sans-serif;
+
+/* LAMP
+-------------------------------------------*/
+
+.lamp {
+  text-align: center;
+
+  iframe body {
+    overflow-y: hidden;
+  }
+
+  .link__wrapper {
+    margin: 0 auto 2em;
+
+    p {
+      margin: 0;
+    }
+  }
+}

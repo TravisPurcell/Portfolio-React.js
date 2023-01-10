@@ -1,0 +1,120 @@
+/* Variables
+------------------------------------------*/
+
+$color__text-main: #212529;
+
+$color__lgray: #262626;
+$color__gray: #212529;
+$color__gold: #eac595;
+$color__alt: #1a8cff;
+$color__purple: #9999ff;
+
+$font__main: 'Sono', sans-serif;
+
+/* Hero
+-------------------------------------------*/
+
+.hero {
+    padding: 2em 0 0;
+    background-color: #000;
+    text-align: center;
+    overflow: hidden;
+  
+    h1 {
+      font-size: 40px;
+      font-size: 2.5em;
+    }
+  
+    .icon__wrapper {
+  
+      a + a {
+        margin-left: 1em;
+      }
+    }
+  
+    .text__wrapper {
+      text-align: left;
+    }
+  
+    .subtitle {
+      font-size: 28px;
+      font-size: 1.125em;
+      text-align: left;
+      font-style: italic;
+  
+      &:last-of-type {
+        margin-bottom: 1em;
+      }
+    }
+  
+    &Img {
+      max-width: 260px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+  
+    .hero {
+      padding: 4em 0 0;
+  
+      &Img {
+        max-width: 300px;
+      }
+  
+      &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+      }
+  
+      .text__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 400px;
+        margin-bottom: 4em;
+      }
+  
+      .img__wrapper {
+        align-self: flex-end
+      }
+  
+      h1 {
+        font-size: 48px;
+        font-size: 3em;
+      }
+  
+      .subtitle {
+        font-size: 20px;
+        font-size: 1.25em;
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+  @media (min-width: 992px) {
+    
+    .hero {
+      padding: 6em 0 0;
+  
+      h1 {
+        font-size: 56px;
+        font-size: 3.5em;
+      }
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    
+    .hero {
+  
+      &Img {
+        max-width: 450px;
+      }
+  
+      h1 {
+        font-size: 80px;
+        font-size: 5em;
+      }
+    }
+  }
