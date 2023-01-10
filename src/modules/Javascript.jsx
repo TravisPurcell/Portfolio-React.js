@@ -13,7 +13,7 @@ function Javascript() {
                           <h2>HTML/CSS/JS Demo</h2>
                           <h3>Click Counter App</h3>
                           <div className={styles.link__wrapper}>
-                              <p><a href="https://github.com/TravisPurcell/ToDo" target="_blank">Click to View Github Repo</a></p>
+                              <p><a href="https://github.com/TravisPurcell/Portfolio-React.js/blob/main/src/modules/Clicker.jsx" target="_blank">Click to View Github Repo</a></p>
                           </div>
                             <Clicker></Clicker>
                         </div>
