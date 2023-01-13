@@ -14,11 +14,13 @@ const App = () => {
     <div>
       <main>
       {Hero} 
+      {Summary}
+
         <div className="section__wrapper">
+
           {Tech}
           {Slider}
         </div>
-          {Summary}
           {Javascript}
           {Lamp}
           {Wordpress}
