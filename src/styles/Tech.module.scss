@@ -153,5 +153,24 @@ $font__main: 'Sono', sans-serif;
         }
       }
     }
-    
+  }
+
+  @media (min-width: 1920px) {
+
+    .icons {
+
+      .stack__wrapper {
+        max-width: 60%;
+      }
+    }
+  }
+
+  @media (min-width: 2560px) {
+
+    .icons {
+
+      .stack__wrapper {
+        max-width: 50%;
+      }
+    }
   }
