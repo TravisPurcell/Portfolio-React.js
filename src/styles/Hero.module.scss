@@ -76,7 +76,8 @@ $font__main: 'Sono', sans-serif;
       }
   
       .img__wrapper {
-        align-self: flex-end
+        align-self: flex-end;
+        flex-basis: 75%;
       }
   
       h1 {
@@ -113,8 +114,8 @@ $font__main: 'Sono', sans-serif;
       }
   
       h1 {
-        font-size: 80px;
-        font-size: 5em;
+        font-size: 104px;
+        font-size: 6.5em;
       }
     }
   }
