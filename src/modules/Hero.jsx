@@ -5,7 +5,7 @@ function Hero() {
   return (
 
     <section className={styles.hero}>
-        <div className="container-md">
+        <div className="container-xl">
             <div className="row">
                 <div className="col-12">
                     <div className={styles.hero__wrapper}>
